@@ -1,2 +1,2 @@
-# classic-game
-A classic retro gaming platform
+# Arogyam
+A health monitoring and wellness platform
