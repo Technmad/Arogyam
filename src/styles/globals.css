@@ -66,7 +66,7 @@
 }
 
 ::selection {
-  background: hsl(var(--primary) / 0.1);
+  background: hsl(var(--primary)/0.1);
   color: hsl(var(--foreground));
 }
 
@@ -75,7 +75,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(var(--accent-foreground) / 0.3);
+  background: hsl(var(--accent-foreground)/0.3);
   border-radius: 9999px;
 }
 
@@ -100,7 +100,7 @@ image {
   --uib-size: 45px;
   --uib-color: #f97316;
   --uib-speed: 1.75s;
-  --uib-bg-opacity: 0.1;
+  --uib-bg-opacity: .1;
   height: 31.25px;
   width: 50px;
   transform-origin: center;
