@@ -4,8 +4,8 @@ import { NextResponse } from "next/server";
 const isProtectedRoute = createRouteMatcher(["/dashboard(.*)"]);
 const isPublicRoute = createRouteMatcher(["/", "(auth)(.*)"]);
 
-export default clerkMiddleware((auth, req) => {
-  const { userId } = auth();
+export default clerkMiddleware(async (auth, req) => {
+  const { userId } = await auth();
 
   if (isPublicRoute(req)) {
     // Allow public routes
@@ -15,10 +15,10 @@ export default clerkMiddleware((auth, req) => {
   if (isProtectedRoute(req) && !userId) {
     return NextResponse.redirect(new URL("/auth/signin", req.url));
   }
+
+  return NextResponse.next();
 });
 
 export const config = {
   matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
 };
-// This matcher excludes static files and API routes from middleware processing
-// and only applies to the specified routes.
