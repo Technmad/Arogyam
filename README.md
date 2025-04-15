@@ -57,13 +57,12 @@ npm run dev
 
 ```
 
-```
 
 ## System Architecture
 
 ![Architecture Preview](/public/diagrams/system-architecture.png)
 
-<<<<<<< HEAD
+
 **Key Components:**
 
 1. **Client Layer**: Next.js frontend with React components
@@ -74,6 +73,3 @@ npm run dev
    - Auth Service (Clerk)
    - Payment Service (Stripe)
 5. **Data Layer**: MongoDB with Prisma ORM
-=======
-
->>>>>>> dfc5c85a49bc856e46d09bf6000ff40b8b5b9fd0
