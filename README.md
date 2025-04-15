@@ -8,9 +8,7 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#documentation">Documentation</a> •
-  <a href="#license">License</a>
+  <a href="#getting-started">Getting Started</a> 
 </p>
 
 Arogyam is a comprehensive health monitoring platform that helps users track their symptoms, manage medications, and receive personalized AI-powered health recommendations. With a focus on holistic wellness, Arogyam provides insights into physical health, mental wellbeing, and lifestyle factors.
@@ -61,4 +59,5 @@ npm run dev
 
 ## System Architecture
 ![Architecture Preview](/public/diagrams/system-architecture.png)
+
 
