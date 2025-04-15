@@ -57,8 +57,8 @@ npx prisma generate
 # Start the development server
 npm run dev
 
+```
 
 ## System Architecture
 ![Architecture Preview](/public/diagrams/system-architecture.png)
 
-```
