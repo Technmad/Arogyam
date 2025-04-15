@@ -1,4 +1,4 @@
-# Arogyam Health Monitoring Platform
+# Arogyam : Health Monitoring Platform
 
 <div align="center">
   <img src="public/icons/logo.svg" alt="Arogyam Logo" width="120" />
@@ -8,9 +8,7 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#documentation">Documentation</a> •
-  <a href="#license">License</a>
+  <a href="#getting-started">Getting Started</a> 
 </p>
 
 Arogyam is a comprehensive health monitoring platform that helps users track their symptoms, manage medications, and receive personalized AI-powered health recommendations. With a focus on holistic wellness, Arogyam provides insights into physical health, mental wellbeing, and lifestyle factors.
@@ -57,6 +55,7 @@ npx prisma generate
 # Start the development server
 npm run dev
 
+```
 
 ```
 
@@ -64,6 +63,7 @@ npm run dev
 
 ![Architecture Preview](/public/diagrams/system-architecture.png)
 
+<<<<<<< HEAD
 **Key Components:**
 
 1. **Client Layer**: Next.js frontend with React components
@@ -74,3 +74,6 @@ npm run dev
    - Auth Service (Clerk)
    - Payment Service (Stripe)
 5. **Data Layer**: MongoDB with Prisma ORM
+=======
+
+>>>>>>> dfc5c85a49bc856e46d09bf6000ff40b8b5b9fd0
