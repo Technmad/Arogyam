@@ -1,4 +1,4 @@
-# Arogyam Health Monitoring Platform
+# Arogyam : Health Monitoring Platform
 
 <div align="center">
   <img src="public/icons/logo.svg" alt="Arogyam Logo" width="120" />
