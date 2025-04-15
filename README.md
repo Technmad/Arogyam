@@ -58,7 +58,19 @@ npx prisma generate
 npm run dev
 
 
+```
+
 ## System Architecture
+
 ![Architecture Preview](/public/diagrams/system-architecture.png)
 
-```
+**Key Components:**
+
+1. **Client Layer**: Next.js frontend with React components
+2. **Edge Layer**: Vercel edge functions for optimized delivery
+3. **Application Layer**: Next.js API routes and Server Components
+4. **Service Layer**:
+   - AI Service (Google Gemini)
+   - Auth Service (Clerk)
+   - Payment Service (Stripe)
+5. **Data Layer**: MongoDB with Prisma ORM
